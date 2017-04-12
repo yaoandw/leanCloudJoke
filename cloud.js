@@ -203,6 +203,7 @@ AV.Cloud.define('fetchJoke', function(request, response) {
             console.error('Request failed with response code ' + httpResponse.status);
         }
     });
+    return response.success();
 })
 
 AV.Cloud.define('xmlTest', function(request, response) {
