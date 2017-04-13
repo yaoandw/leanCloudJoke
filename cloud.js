@@ -140,7 +140,7 @@ var parseDateFromString = function(strDate){
     console.log('parseDateFromString result:'+date);
     // offset =-8; //北京时间-8
     // var bj = date.getTime() + (3600000*offset);
-    date = new Date(bj);
+    // date = new Date(bj);
     return date;
 }
 
