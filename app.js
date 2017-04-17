@@ -16,6 +16,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'vonic')));
 
 // 设置默认超时时间
 app.use(timeout('15s'));
